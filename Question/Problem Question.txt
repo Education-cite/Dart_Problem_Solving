@@ -1,0 +1,298 @@
+ Problem 1: Frequency Counter
+Write a function countFrequencies that takes a list of strings and returns a Map showing how many times each word appears.
+
+----------------------
+
+Problem 2: Reverse Map
+Write a function reverseMap that takes a Map<String, String> and returns a new map where keys and values are swapped.
+
+---------------------------
+
+🧩 Problem 3: Grouping by Property
+Given a list of students with their department, write a function groupByDepartment that groups them by department in a Map.
+
+----------------------------
+
+
+Problem 4: Function Composition
+Write a higher-order function compose that takes two functions f and g, and returns a new function that applies f(g(x)).
+
+
+---------------------------
+
+Problem 5: Map Filtering
+Write a function filterMapByValue that removes all entries in a Map where the value is below a certain threshold.
+
+
+-----------------------
+ 
+ 
+ 
+ Problem 6: Merge Two Maps
+Write a function that takes two Map<String, int> and returns a merged map. If the same key exists in both, add the values.
+
+Map<String, int> map1 = {'a': 1, 'b': 2};
+Map<String, int> map2 = {'b': 3, 'c': 4};
+
+Expected Output:
+{'a': 1, 'b': 5, 'c': 4}
+
+
+------------
+
+ Problem 7: Top Scorer
+Given a Map<String, int> of student names and marks, write a function to return the name(s) of the highest scorer(s).
+
+{'Arafat': 90, 'Mehedi': 85, 'Tusar': 90}
+→ Output: ['Arafat', 'Tusar']
+
+----------------------
+
+Problem 8: Apply Function to Map Values
+Write a function that takes a Map<String, int> and a function, and returns a new map where the function is applied to each value.
+
+Map<String, int> data = {'a': 2, 'b': 4};
+Function f = (x) => x * x;
+
+Output: {'a': 4, 'b': 16}
+
+-----------------------------
+
+ Problem 9: Count Letters
+Write a function that takes a String and returns a Map<String, int> where each letter (ignoring space and case) is counted.
+
+Input: "Hello World"
+Output: {'h':1, 'e':1, 'l':3, 'o':2, 'w':1, 'r':1, 'd':1}
+
+-------------------------------
+
+Problem 10: Custom Group By
+Write a generic function groupBy<T, K> that takes a List<T> and a function that returns a key K for each element. Return a Map<K, List<T>>.
+
+List<String> fruits = ['apple', 'banana', 'apricot', 'blueberry'];
+groupBy(fruits, (fruit) => fruit[0]);
+
+→ Output: {
+  'a': ['apple', 'apricot'],
+  'b': ['banana', 'blueberry']
+}
+
+--------------------------------------
+
+Problem 11: Invert a Map
+Given a Map<String, int> and create a new Map<int, List<String>> where the keys will be grouped according to value.
+
+Input: {'a': 1, 'b': 2, 'c': 1}
+Output: {1: ['a', 'c'], 2: ['b']}
+
+----------------------------------------
+
+Problem 12: Filter Map by Value
+Take a Map<String, int> and a threshold as input.
+Create a new Map with only the keys whose values ​​are greater than the threshold.
+
+Input: {'a': 5, 'b': 2, 'c': 8}, threshold = 4
+Output: {'a': 5, 'c': 8}
+
+---------------------------------------------
+
+Problem 13: Merge Maps with Summed Values
+Given two Map<String, int>. Add their values ​​if they have the same key.
+
+Input: {'a': 2, 'b': 3}, {'a': 5, 'c': 4}
+Output: {'a': 7, 'b': 3, 'c': 4}
+
+---------------------------------------------
+
+Problem 14: Word Frequency Counter
+Given a String as input. Count the number of times each word occurs and return a Map<String, int>.
+(Assuming it is separated by spaces)
+
+Input: "dart is fun and dart is powerful"
+Output: {'dart': 2, 'is': 2, 'fun': 1, 'and': 1, 'powerful': 1}
+
+------------------------------------------
+
+Problem 15: Top N Values ​​from Map
+Given a Map<String, int> and a number n.
+Select the keys according to the largest n values ​​and return them as a Map<String, int>.
+
+Input: {'a': 5, 'b': 1, 'c': 8, 'd': 3}, n = 2
+Output: {'c': 8, 'a': 5}
+
+----------------------------------------------
+
+Problem 16: Remove Keys with Even Values
+🔷 Problem:
+You are given a Map<String, int>.
+From that map, remove the keys whose values ​​are even numbers (e.g. 2, 4, 6) and return the rest.
+
+input:{'a': 2, 'b': 3, 'c': 4, 'd': 5}
+
+output:{'b': 3, 'd': 5}
+
+-----------------------------------------------
+
+Problem 17: Group Words by Length
+🔷 Problem:
+Given a List<String>.
+You will return a Map<int, List<String>> where the key is the length of the word, and the value is the list of all words of that length.
+
+input : ['cat', 'dog', 'fish', 'goat', 'hi']
+
+output: {
+  3: ['cat', 'dog'],
+  4: ['fish', 'goat'],
+  2: ['hi']
+}
+
+----------------------------------------------
+
+Problem 18: Check Map Equality
+🔷 Problem:
+Given two Map<String, int>.
+Write a function that returns true if the keys and values ​​of the two maps are exactly the same (order is not important). Otherwise, false.
+
+input : {'a': 1, 'b': 2}
+{'b': 2, 'a': 1}
+
+output: true
+
+--------------------------------------------------
+
+Problem 19: Convert List of Maps to Single Map
+🔷 Problem:
+You are given a List<Map<String, int>>.
+You will return a Map<String, int> where multiple maps will be joined if their values ​​have the same key.
+
+input : [
+  {'a': 1, 'b': 2},
+  {'a': 3, 'c': 4}
+]
+
+output: {'a': 4, 'b': 2, 'c': 4}
+
+-----------------------------------------------
+
+Problem 20: Sort Map by Values
+🔷 Problem:
+You are given a Map<String, int>.
+You will return a new Map where the key-values ​​are sorted by value from largest to smallest.
+
+input : {'a': 10, 'b': 5, 'c': 20}
+
+output: {'c': 20, 'a': 10, 'b': 5}
+
+--------------------------------------------
+
+Problem 21: Nested Map Flattener
+Task: Write a function that takes a Map<String, Map<String, int>> and flattens it into a single Map<String, int>, combining keys as "outer.inner".
+
+input : {
+  'math': {'a': 80, 'b': 90},
+  'science': {'a': 85, 'c': 75}
+}
+
+output : {
+  'math.a': 80,
+  'math.b': 90,
+  'science.a': 85,
+  'science.c': 75
+}
+
+
+--------------------------------------
+
+
+ Problem 22: Most Common Value
+Task: Given a Map<String, int>, return the value that appears most frequently.
+
+input :{'a': 1, 'b': 2, 'c': 1, 'd': 3}
+output : 1
+
+--------------------------------------
+
+
+Problem 23: Word Synonym Expander
+Task: Given a list of words and a Map<String, List<String>> of synonyms, return a new list where each word is replaced by its synonyms (if available).
+
+input : words = ['happy', 'sad']
+       synonyms = {'happy': ['joyful', 'cheerful'], 'sad': ['unhappy']}
+
+output : ['joyful', 'cheerful', 'unhappy']
+
+--------------------------------------
+
+ Problem 24: Digit Counter Map
+Task: Given a list of integers, return a Map<int, int> counting how many times each digit (0–9) appears across all numbers.
+
+input : [123, 456, 112]
+
+output :{1: 3, 2: 2, 3: 1, 4: 1, 5: 1, 6: 1}
+ 
+--------------------------------------
+
+ Problem 25: Detect Duplicate Values
+Task: Given a Map<String, int>, return a List<String> of keys that share a value with another key.
+
+input : {'a': 1, 'b': 2, 'c': 1, 'd': 3}
+
+output :['a', 'c']
+
+--------------------------------------
+
+ Problem 26: Swap Map Keys Based on Function
+Task: Given a Map<String, int> and a function (String) => String, return a new map where the keys are transformed using the function, keeping values the same.
+
+--------------------------------------
+
+Problem 27: Group Events by Date
+Task: Given a list of events (Map<String, String>) with title and date, group them by date.
+
+input : [
+  {'title': 'Meeting', 'date': '2025-05-10'},
+  {'title': 'Call', 'date': '2025-05-10'},
+  {'title': 'Workshop', 'date': '2025-05-11'}
+]
+
+output :{
+  '2025-05-10': ['Meeting', 'Call'],
+  '2025-05-11': ['Workshop']
+}
+
+-------------------------------------------------------
+
+ Problem 28: Index List to Map
+Task: Given a List<String>, convert it to a Map<int, String> where the key is the index.
+
+input : ['apple', 'banana']
+
+output :{0: 'apple', 1: 'banana'}
+
+--------------------------------------------------
+
+Problem 29: Partition Map by Predicate
+Task: Write a function that splits a Map<String, int> into two maps based on a predicate (e.g., value is even or odd).
+
+output : {
+  'true': {... even values ...},
+  'false': {... odd values ...}
+}
+
+
+-------------------------------------------------
+
+Problem 30: Anagram Grouping
+Task: Given a list of words, group them by anagram.
+
+input : ['listen', 'silent', 'enlist', 'rat', 'tar', 'art']
+
+output :{
+  'eilnst': ['listen', 'silent', 'enlist'],
+  'art': ['rat', 'tar', 'art']
+}
+
+
+-------------------------------------------
+
+These problems are solved now you give me new problems so that does not match this problem question
