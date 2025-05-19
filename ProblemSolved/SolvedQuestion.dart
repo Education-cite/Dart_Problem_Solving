@@ -1,3 +1,5 @@
+/*
+
 Problem 1: Frequency Counter
 Write a function countFrequencies that takes a list of strings and returns a Map showing how many times each word appears.
 
@@ -888,5 +890,5 @@ List<String> synonymsValue(List words, Map<String, List<String>> map1) {
 
 ------------------------------------------------------------
 
-
+*/
 
