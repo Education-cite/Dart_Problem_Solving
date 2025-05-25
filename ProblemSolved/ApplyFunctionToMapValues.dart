@@ -9,7 +9,6 @@ Function f = (x) => x * x;
 Output: {'a': 4, 'b': 16}
 */
 
-
 void main(){
   Map<String,int> studentsNumber1 = {"Enamul":80,"Tawhid":99,"Tusar":100,"Saddam":67};
   int Function(int) data = (x) => x + x;
