@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f7648c08-e14d-40a0-b414-45ae9e9dd782" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/DigitCounterMap.dart" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2xJWdkg7marJAgwVBv4ljXkSEDR" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Dart Command Line App.ApplyFunctionToMapValues.dart.executor": "Run",
+    "Dart Command Line App.CheckMapEquality.dart.executor": "Run",
+    "Dart Command Line App.ConvertListOfMapsToSingle Map.dart.executor": "Run",
+    "Dart Command Line App.CountLetters.dart.executor": "Run",
+    "Dart Command Line App.CustomGroupBy.dart.executor": "Run",
+    "Dart Command Line App.DigitCounterMap.dart.executor": "Run",
+    "Dart Command Line App.FilterMapbyValue.dart.executor": "Run",
+    "Dart Command Line App.FrequencyCounter.dart.executor": "Run",
+    "Dart Command Line App.FunctionComposition.dart.executor": "Run",
+    "Dart Command Line App.GroupWordsByLength.dart.executor": "Run",
+    "Dart Command Line App.GroupingByProperty.dart.executor": "Run",
+    "Dart Command Line App.InvertMap.dart.executor": "Run",
+    "Dart Command Line App.MapFiltering.dart.executor": "Run",
+    "Dart Command Line App.MergeMapswithSummedValues.dart.executor": "Run",
+    "Dart Command Line App.MergeTwoMaps.dart.executor": "Run",
+    "Dart Command Line App.MostCommonValue.dart.executor": "Run",
+    "Dart Command Line App.NestedMapFlattener.dart.executor": "Run",
+    "Dart Command Line App.RemoveKeysWithEvenValues.dart.executor": "Run",
+    "Dart Command Line App.ReverseMap.dart.executor": "Run",
+    "Dart Command Line App.SortMapByValues.dart.executor": "Run",
+    "Dart Command Line App.TopNValues​​FromMap.dart.executor": "Run",
+    "Dart Command Line App.TopScorer.dart.executor": "Run",
+    "Dart Command Line App.WordFrequencyCounter.dart.executor": "Run",
+    "Dart Command Line App.WordSynonymExpander.dart.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Dell/Desktop/Enamul/DartProblem Solving Practice/ProblemSolved"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f7648c08-e14d-40a0-b414-45ae9e9dd782" name="Changes" comment="" />
+      <created>1747656745782</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1747656745782</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
