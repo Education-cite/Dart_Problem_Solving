@@ -12,6 +12,12 @@ Output
 void main(){
   Map<String,int> data = {'a':1,'b':2,'c':3};
   String Function(String) toUpper=(k)=>k.toUpperCase();
+
+ // or
+ //  String toUpper(String k){
+ //    return k.toUpperCase();
+ //  }
+
   var result = swapMapKeys( data,toUpper);
   print(result);
 }
