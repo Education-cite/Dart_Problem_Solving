@@ -21,6 +21,7 @@ void main(){
   };
 
   var result = PartitionMapByPredicate( numbers);
+ // var result = PartitionMapByPredicate2( numbers);
   print(result);
 
 }
@@ -43,5 +44,12 @@ Map<String, Map<String, int>>  PartitionMapByPredicate(Map<String,int> numbers){
   };
 }
 
+//or
 
+Map<String, Map<String, int>> PartitionMapByPredicate2(Map<String, int> input) {
+  return {
+    'Even': Map.fromEntries(input.entries.where((e) => e.value % 2 == 0)),
+    'Odd': Map.fromEntries(input.entries.where((e) => e.value % 2 != 0)),
+  };
+}
 

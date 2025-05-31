@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4531f069-3f2f-49f9-b37c-715ede6326e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Map_Function_List_ProblemSolved/PartitionMapByPredicate.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Map_Function_List_ProblemSolved/PartitionMapByPredicate.dart" beforeDir="false" afterPath="$PROJECT_DIR$/Map_Function_List_ProblemSolved/PartitionMapByPredicate.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +40,7 @@
     "Dart Command Line App.ApplyFunctionToMapValues.dart.executor": "Run",
     "Dart Command Line App.FunctionComposition.dart.executor": "Run",
     "Dart Command Line App.IndexListToMap.dart.executor": "Run",
+    "Dart Command Line App.PartitionMapByPredicate.dart.executor": "Run",
     "Dart Command Line App.detectDuplicateValues.dart.executor": "Run",
     "Dart Command Line App.groupEventsByDate.dart.executor": "Run",
     "Dart Command Line App.swapMapKeys.dart.executor": "Run",
