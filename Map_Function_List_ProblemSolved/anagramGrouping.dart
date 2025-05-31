@@ -27,10 +27,11 @@ Map<String,List<String>>  anagramGrouping(List<String> words ){
   Map<String,List<String>>  anagramMap = {};
  for(var word in words){
    String sorted = (word.split('')..sort()).join();
+
    if(!anagramMap.containsKey(sorted)){
      anagramMap[sorted] = [];
    }
-   anagramMap[sorted]!.add(sorted);
+   anagramMap[sorted]!.add(word);
 
  }
 
