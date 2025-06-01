@@ -296,7 +296,7 @@ output :{
 -------------------------------------------
 
 
- Problem 31: Find Missing Keys
+Problem 31: Find Missing Keys
  
 Task**:
 You will be given two Maps\<String, int>. The first Map will have some keys, the second Map will also have some keys. Your task is to find a List<String> that is in the first Map but not in the second.
@@ -311,9 +311,19 @@ Map<String, int> map2 = {'b': 2, 'd': 4};
 
 ---------------------------------------------
 
-Problem 32: Map Value Transformer by Key Prefix**
+Problem 32: Count Words by First Letter**
 
-**Task:** Given a `Map<String, int>` and a prefix string, double the value of all entries whose key starts with that prefix.
+Task**:
+You will be given a List<String> containing some words. Your task is to return a Map\<String, int>, where each key is the first letter, and the value is the number of words that start with that letter. 
+Input:
+
+List<String> words = ['apple', 'banana', 'apricot', 'blueberry', 'avocado'];
+ Expected Output:
+
+{
+  'a': 3,
+  'b': 2
+}
 
 ---------------------------------------------
 
