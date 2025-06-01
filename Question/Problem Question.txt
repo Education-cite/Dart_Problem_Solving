@@ -295,4 +295,76 @@ output :{
 
 -------------------------------------------
 
-These problems are solved now you give me new problems so that does not match this problem question
+
+Problem 31: Invert and Flatten Nested Map**
+
+**Task:** Given a `Map<String, Map<int, String>>`, flatten and invert it into `Map<String, String>`, combining outer and inner keys.
+
+Input: {
+  'group1': {1: 'A', 2: 'B'},
+  'group2': {1: 'C'}
+}
+Output: {
+  'group1.1': 'A',
+  'group1.2': 'B',
+  'group2.1': 'C'
+}
+
+---------------------------------------------
+Problem 32: Map Value Transformer by Key Prefix**
+
+**Task:** Given a `Map<String, int>` and a prefix string, double the value of all entries whose key starts with that prefix.
+
+---------------------------------------------
+
+ **Problem 33: Count Total Occurrences in List of Maps**
+
+**Task:** Given a `List<Map<String, int>>`, count the total number of times each key appears (regardless of values).
+
+---------------------------------------------
+
+ **Problem 34: Extract Key Pairs Matching Condition**
+
+**Task:** From a `Map<String, int>`, return all pairs of keys where the values differ by exactly 1.
+
+---------------------------------------------
+
+ **Problem 35: Custom Sort by Key and Value**
+
+**Task:** Given a `Map<String, int>`, return a new map sorted first by values descending, then keys ascending alphabetically.
+
+---------------------------------------------
+
+ **Problem 36: Range Frequency Counter**
+
+**Task:** Given a list of integers, return a `Map<String, int>` where keys are ranges like `"0–9"`, `"10–19"`, etc., and values are counts of how many numbers fall into each range.
+
+---------------------------------------------
+
+ **Problem 37: URL Parameter Parser**
+
+**Task:** Write a function that takes a URL query string like `"a=1&b=2&c=1"` and returns a `Map<String, String>`.
+
+---------------------------------------------
+
+ **Problem 38: Frequency Histogram from String**
+
+**Task:** Given a string, return a `Map<int, int>` where each key is a word length, and the value is how many words have that length.
+
+---------------------------------------------
+
+ **Problem 39: Compact Map Cleaner**
+
+**Task:** Write a function that removes all entries from a `Map<String, dynamic>` where the value is `null`, empty string `''`, or empty list `[]`.
+
+---------------------------------------------
+
+ **Problem 40: Merge List of Maps with Summed Values (Deep Merge)**
+
+**Task:** Given a `List<Map<String, int>>`, combine all maps into one where values are added per key.
+
+---------------------------------------------
+
+
+
+These problems are solved me.now you give me new problems so that does not match this problem question
