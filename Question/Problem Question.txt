@@ -296,21 +296,21 @@ output :{
 -------------------------------------------
 
 
-Problem 31: Invert and Flatten Nested Map**
+ Problem 31: Find Missing Keys
+ 
+Task**:
+You will be given two Maps\<String, int>. The first Map will have some keys, the second Map will also have some keys. Your task is to find a List<String> that is in the first Map but not in the second.
 
-**Task:** Given a `Map<String, Map<int, String>>`, flatten and invert it into `Map<String, String>`, combining outer and inner keys.
+**Input**:
 
-Input: {
-  'group1': {1: 'A', 2: 'B'},
-  'group2': {1: 'C'}
-}
-Output: {
-  'group1.1': 'A',
-  'group1.2': 'B',
-  'group2.1': 'C'
-}
+Map<String, int> map1 = {'a': 1, 'b': 2, 'c': 3};
+Map<String, int> map2 = {'b': 2, 'd': 4};
+
+ Output:
+['a', 'c']
 
 ---------------------------------------------
+
 Problem 32: Map Value Transformer by Key Prefix**
 
 **Task:** Given a `Map<String, int>` and a prefix string, double the value of all entries whose key starts with that prefix.
