@@ -375,6 +375,20 @@ List<String> words = ['apple', 'banana', 'apricot', 'blueberry', 'avocado'];
 
 ---------------------------------------------
 
+Problem 41: Filter Words by Length**
 
+Task:
+You will be given a `List<String>` and an integer `minLength`. Your task is to create a new list that contains only those words that are of length `minLength` or greater.
+
+Input:
+
+List<String> words = ['apple', 'bee', 'car', 'elephant', 'do'];
+int minLength = 4;
+
+Output:
+
+['apple', 'elephant']
+
+----------------------------------------------
 
 These problems are solved me.now you give me new problems so that does not match this problem question
