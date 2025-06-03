@@ -17,14 +17,14 @@ void main() {
 List<List<String>> extractKeyPairs(Map<String,int> map1) {
   List<List<String>> result = [];
   List<String> keys = map1.keys.toList();
+
   for(var i=0; i<keys.length; i++){
     for(var j=i+1; j<keys.length; j++){
-      if((map1[keys[i]]! - map1[keys[j]]!).abs()==1){
+      if((map1[keys[i]]! - map1[keys[j]]!).abs() == 1){
        result.add([keys[i],keys[j]]);
       }
     }
   }
-
 
   return result;
 }
