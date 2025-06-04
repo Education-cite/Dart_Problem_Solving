@@ -17,7 +17,7 @@ void main() {
 Map<String, int> customSort(Map<String, int> map) {
   var entries = map.entries.toList();
   entries.sort((a, b) {
-    
+
     if (b.value != a.value) {
       return b.value.compareTo(a.value); // value DESC
     } else {

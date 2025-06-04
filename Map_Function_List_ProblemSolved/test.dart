@@ -1,24 +1,22 @@
 void main(){
-  List<int> numbers = [123,567,123,567];
-  Map<int,int> countNumber = {};
-  Map<int,int> result = countOfNumber(numbers);
+Map<String,int> map = {'apple': 3, 'banana': 2, 'cherry': 3, 'date': 1};
+  var result = countOfNumber(map);
 print(result);
 }
 
-Map<int,int> countOfNumber (List<int> digits){
-
-  Map<int,int> count = {};
-  for(var item in digits){
-    String numToString = item.toString();
-    for(int i=0;i<numToString.length;i++){
-      int n = int.parse(numToString[i]);
-      count[n] = (count[n] ?? 0)+1;
+Map<String,int> countOfNumber (Map<String,int> m){
 
 
-    }
+var entries = m.entries.toList();
+entries.sort((a,b){
+  if(b.value!=a.value){
+  return b.value.compareTo(a.value);
+  }else{
+    return a.key.compareTo(b.key);
   }
 
+});
 
-  return count;
+return Map.fromEntries(entries);
 
 }
