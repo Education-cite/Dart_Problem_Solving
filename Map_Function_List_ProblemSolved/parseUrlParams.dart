@@ -7,20 +7,20 @@
 */
 
 void main() {
-  List<int> numbers =  [5, 12, 17, 22, 35, 8, 15];
-  var result = rangeFrequency(numbers);
+ String url =   "a=1&b=2&c=1";
+  var result = parseUrlParams(url);
   print(result);
 
 
 }
 
-Map<String, int> rangeFrequency( List<int> numbers) {
-  Map<String, int> newMap = {};
-  for (var number in numbers) {
-    int start = (number ~/ 10) * 10;
-    int end = start + 9;
-    String keyRange = "$start-$end";
-    newMap[keyRange] = (newMap[keyRange] ?? 0 )+1;
-  }
+Map<String, String> parseUrlParams( String url) {
+  Map<String, String> newMap = {};
+ for(var query in url.split('&')){
+   List<String> queryPart = query.split('=');
+   if(queryPart.length == 2){
+     newMap[queryPart[0]] = queryPart[1];
+   }
+ }
   return newMap;
 }
