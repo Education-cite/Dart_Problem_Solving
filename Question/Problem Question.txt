@@ -391,4 +391,113 @@ Output:
 
 ----------------------------------------------
 
+Problem 42: Flatten List of Lists
+
+Task: Given a List<List<int>>, convert it into a single List<int> containing all the elements.
+
+Input:
+
+[[1, 2], [3, 4], [5]]
+
+Output:
+
+[1, 2, 3, 4, 5]
+
+-----------------------------------------------
+
+Problem 43: Key Renamer
+
+Task: Given a Map<String, int> and a function String rename(String oldKey), return a new map where the keys are renamed using the rename function and the values remain the same.
+
+-----------------------------------------------
+
+Problem 44: Count Unique Characters
+
+Task: Given a string input, return a Set<String> containing all unique characters (excluding spaces, case-insensitive).
+
+Input: "Hello World"
+
+Output: {'h', 'e', 'l', 'o', 'w', 'r', 'd'}
+
+-----------------------------------------------
+
+Problem 45: Word Position Mapper
+
+Task: Given a string, return a Map<String, int> mapping each word to its index position (based on first occurrence).
+
+Input: "apple banana apple car"
+
+Output: {'apple': 0, 'banana': 1, 'car': 3}
+
+-----------------------------------------------
+
+Problem 46: Group Numbers by Parity and Range
+
+Task: Given a List<int>, create a map where keys are "even" and "odd", and the values are maps grouping numbers by ranges of 10 (e.g., 0–9, 10–19, etc.) with counts.
+
+Input: [3, 4, 12, 17, 22, 25]
+
+Output:
+
+{
+  "even": {"0–9": 1, "10–19": 1, "20–29": 1},
+  "odd": {"0–9": 1, "10–19": 1, "20–29": 1}
+}
+
+-----------------------------------------------
+
+Problem 47: Find Consecutive Repeats
+
+Task: Given a list, return the values that appear consecutively two or more times.
+
+Input: [1, 2, 2, 3, 4, 4, 4, 5]
+
+Output: [2, 4]
+
+-----------------------------------------------
+
+Problem 48: Nested Map Key Extractor
+
+Task: Given a Map<String, Map<String, int>>, return a Set<String> of all the inner keys.
+
+Input:
+
+{
+  "group1": {"a": 1, "b": 2},
+  "group2": {"b": 3, "c": 4}
+}
+Output: {'a', 'b', 'c'}
+
+-----------------------------------------------
+
+Problem 49: Normalize Map Values
+
+Task: Given a Map<String, int>, normalize each value by dividing by the total sum so that values are between 0 and 1 (not percentage). The values should be double.
+
+Input: {'a': 2, 'b': 3}
+
+Output: {'a': 0.4, 'b': 0.6}
+
+-----------------------------------------------
+
+Problem 50: Filter by Key Pattern
+
+Task: Write a function that takes a Map<String, int> and keeps only those keys containing a specific substring (e.g., "id").
+
+Input: {'user_id': 1, 'name': 2, 'product_id': 3}
+Substring: 'id'
+Output: {'user_id': 1, 'product_id': 3}
+
+-----------------------------------------------
+
+Problem 51: List to Frequency Tuple
+
+Task: Given a List<String>, return a List<List> where each sublist is [word, frequency].
+
+Input: ['apple', 'banana', 'apple', 'banana', 'banana']
+
+Output: [['apple', 2], ['banana', 3]]
+
+-----------------------------------------------
+
 These problems are solved me.now you give me new problems so that does not match this problem question
